@@ -1,15 +1,12 @@
 @font-face {
     font-family: 'Iceberg';
-    src: url('/public/fonts/Iceberg-Regular.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
+    src: url('/public/fonts/Iceberg-Regular.ttf') format('truetype');
     font-display: swap;
 }
 
-
 html {
     background-color: lightpink;
-    font-family: 'Iceberg', sans-serif;
+    font-family: 'Iceberg', serif;
 }
 
 body {
@@ -27,7 +24,7 @@ body {
 h1 {
     margin: 1rem 0;
     font-size: 2.5rem;
-    font-family: 'Iceberg', sans-serif;
+    color: peachpuff
 }
 
 a {
@@ -36,4 +33,13 @@ a {
 
 ul {
     list-style-type: square;
+    color: peachpuff;
+}
+
+p {
+    color:antiquewhite;
+}
+
+a:visited {
+    color:rgba(174, 245, 174, 0.99);
 }
